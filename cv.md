@@ -18,7 +18,6 @@ Creative Front-End Developer with years of first-hand expertise in Software Arch
 - Database designed and developed for medical system.
 - Developed stored procedures to prepopulate dropdown lists.
 - Developed medical Web Page employing HTML5 and PHP to implement user's data upload with dropdown menus, checkboxes, Radio Buttons, Text - - Areas, and other input controls.
-- Led the implementation of a new data management medical system, streamlining data processing and improving data accuracy by 20%.
 
 ### **FullStack Developer**
 #### [Ecommpay](https://ecommpay.com/)
