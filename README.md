@@ -1,3 +1,3 @@
 # rsschool-cv
 
-(CV)[https://letasonce.github.io/rsschool-cv/cv]
+[CV](https://letasonce.github.io/rsschool-cv/cv)
