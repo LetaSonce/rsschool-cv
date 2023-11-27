@@ -28,61 +28,63 @@
     <main>
         <section class="base-header">
             <h1><span class="header-span">Enjoy</span> premium coffee at our charming cafe</h1>
+            <!-- <img src="./img/img-hero.jpg" width="1360" height="644" alt="photo coffee"> -->
             <p>With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.</p>
-            <button class="button-menu">Menu</button>
+            <div class="button-menu">
+                <a href="menu.html">Menu</a>
+            </div>
         </section>
         <section id="favorite-coffee" class="favorite-coffee">
             <h2>Choose your <span class="header-span">favorite</span> coffee</h2>
             <ul class="favorite-coffee--items">
                 <li class="favorite-coffee--item">
-                    <img alt="Frappuccino" src="img/coffee-slider-1.png">
+                    <img alt="Frappuccino" src="img/coffee-slider-1.png" width="480" height="480">
                     <h3>S'mores Frappucino</h3>
                     <p class="favorite-coffee--content">This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk.</p>
                     <p class="favorite-coffee--price">$5.50</p>
                 </li>
             </ul>
+            <div class="hidden"></div>
         </section>
         <section id="about" class="about">
             <h2>Resource is <span class="header-span">the perfect and cozy place</span> where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.</h2>
             <ul class="about-img--items">
-                <li class="about-img--item"><img alt="girl with coffee" src="img/about-1.jpg"></li>
-                <li class="about-img--item"><img alt="girl with coffee" src="img/about-2.jpg"></li>
-                <li class="about-img--item"><img alt="girl with coffee" src="img/about-3.jpg"></li>
-                <li class="about-img--item"><img alt="girl with coffee" src="img/about-4.jpg"></li>
+                <li class="about-img--item"><img alt="girl with coffee" width="660" height="590" src="img/about-1.jpg"></li>
+                <li class="about-img--item"><img alt="girl with coffee" width="660" height="430" src="img/about-2.jpg"></li>
+                <li class="about-img--item"><img alt="girl with coffee" width="660" height="430" src="img/about-3.jpg"></li>
+                <li class="about-img--item"><img alt="girl with coffee" width="660" height="590" src="img/about-4.jpg"></li>
             </ul>
         </section>
-        <section id="mobile-up" class="mobile-up">
-            <h2><span class="header-span">Download</span> our apps to start ordering</h2>
-            <p>Download the Resource app today and experience the comfort of ordering your favorite coffee from wherever you are</p>
-            <button class="button-outline btn-apple"><span>Available on the</span><br>App Store</button>
-            <button class="button-outline btn-google"><span>Available on</span><br>Google Play</button>
-            <img alt="two phones" src="img/mobile-screens.png">
+        <section id="mobile-app" class="mobile-app">
+            <div class="mobile-app--container">
+                <h2><span class="header-span">Download</span> our apps to start ordering</h2>
+                <p>Download the Resource app today and experience the comfort of ordering your favorite coffee from wherever you are</p>
+                <button class="button-outline btn-apple"><span>Available on the</span><br>App Store</button>
+                <button class="button-outline btn-google"><span>Available on</span><br>Google Play</button>
+            </div>
+            <img class="mobile-app--image" alt="two phones" width="630" height="630" src="img/mobile-screens.png">
         </section>
     </main>
     <footer id="contact-us" class="contact-us">
-       <h2>Sip, Savor, Smile. <br><span class="header-span">It's coffee time!</span> </h2>
-        <ul class="social-media">
-            <li class="social-media--item">
-                <a class="twitter" href="twitter">
-                    <img src="img/button-twitter.svg" alt="twitter">
-                </a>
-            </li>
-            <li class="social-media--item">
-                <a class="instagram" href="instagram">
-                    <img src="img/button-instagram.svg" alt="instagram">
-                </a>
-            </li>
-            <li class="social-media--item">
-                <a class="facebook" href="facebook">
-                    <img src="img/button-facebook.svg" alt="facebook">
-                </a>
-            </li>
-        </ul>
+        <div class="footer-info">
+            <h2>Sip, Savor, Smile. <br><span class="header-span">It's coffee time!</span> </h2>
+            <ul class="social-media">
+                <li class="social-media--item">
+                    <a class="social-media--content twitter" href="twitter"></a>
+                </li>
+                <li class="social-media--item">
+                    <a class="social-media--content instagram" href="instagram"></a>
+                </li>
+                <li class="social-media--item">
+                    <a class="social-media--content facebook" href="facebook"></a>
+                </li>
+            </ul>
+        </div>
         <div class="footer-navigation">
             <h3>Contact us</h3>
-            <p class="address">8558 Green Rd., LA</p>
-            <p class="tel">+1 (603) 555-0123</p>
-            <p class="time-work">Mon-Sat: 9:00 AM - 23:00 PM</p>
+            <p class="nav-content address">8558 Green Rd., LA</p>
+            <p class="nav-content tel">+1 (603) 555-0123</p>
+            <p class="nav-content time-work">Mon-Sat: 9:00 AM - 23:00 PM</p>
         </div>
     </footer>
 </body>
